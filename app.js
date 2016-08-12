@@ -19,13 +19,13 @@ function RouterCallback($stateProvider){
       url: '/todos',
       controller: 'TodosIndex',
       controllerAs: 'vm',
-      templateUrl: 'js/views/index.html'
+      templateUrl: 'js/todos/index.html'
     })
     .state('todosShow', {
       url: '/todos/:id',
       controller: 'TodosShow',
       controllerAs: 'vm',
-      templateUrl: 'js/views/show.html'
+      templateUrl: 'js/todos/show.html'
     })
 }
 
